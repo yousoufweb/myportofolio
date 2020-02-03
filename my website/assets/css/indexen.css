@@ -1,0 +1,71 @@
+/*main rules*/
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+/*navigation*/
+nav ul{
+    margin-right:-40px;
+}
+nav ul li{
+    text-transform: capitalize;
+    float:right;
+        font-weight: lighter;
+    font-size:30px;
+    margin-top:80px;
+
+}
+nav ul h3{
+    float:left;
+}
+details ul li{
+    font-family: 'Tajawal', serif;
+    float:none;
+  
+       
+        padding:2px 0;
+        margin:0;
+   
+
+}
+/*header*/
+.mep{
+        text-align:left;
+        line-height:1.6;
+}
+
+@media (min-width:992px){
+    /*nav*/
+    nav ul li{
+        margin-top:47px;
+        font-size:16px;
+        font-family: 'Roboto', sans-serif;
+    }
+    details ul li{
+        font-family: 'Tajawal', serif;
+        float:none;
+        margin:0;
+        
+    }
+    /*header*/
+    .me{
+        float:left;
+        margin-right:90px;
+        margin-left:0;
+        
+    }
+    .mep{
+        font-size:18px;
+    }
+    .title{
+        text-align:left;
+        text-transform: capitalize;
+        font-family: 'Raleway', sans-serif;
+        font-size:35px;
+    }
+}
